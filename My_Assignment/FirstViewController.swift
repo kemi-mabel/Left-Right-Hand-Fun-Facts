@@ -8,26 +8,12 @@
 import UIKit
 
 class FirstViewController: UIViewController , LeftorRight{
-    func Left(data: String) {
-        LeftRightLabel.text = "Left"
-        FunFact.text = data
+    func sidefact(fact: String, side: String) {
+        
+        LeftRightLabel.text = side
+        
+        FunFact.text = fact
     }
-    
-    func Right(data: String) {
-        LeftRightLabel.text = "Right"
-        FunFact.text = data
-    }
-    
-    
-//    var types: [Typeofhands] = [
-//        Typeofhands(left: "Make Up Roughly 12% of the Population", right: "Right-handers are likely to eat more"),
-//        Typeofhands(left: "There's a place called Left Hand.", right: "Right-handers are likely to be more sporty"),
-//        Typeofhands(left: "Left-handers have their own holiday.", right: "Right-handers  like to go on vacations"),
-//        Typeofhands(left: "Four of our last six presidents were left-handed.", right: "Right-handers give to charity a lot"),
-//        Typeofhands(left: "Famous lefties include Oprah and Justin Bieber.", right: "Na person right-handers  be, dem no kill person"
-//)
-     // ]
-//    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -44,7 +30,6 @@ class FirstViewController: UIViewController , LeftorRight{
     @IBAction func ChooseButtton(_ sender: Any) {
         performSegue(withIdentifier: "ChooseHand", sender: self)
     }
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         

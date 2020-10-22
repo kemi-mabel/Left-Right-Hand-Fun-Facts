@@ -8,8 +8,7 @@
 import UIKit
 
 protocol LeftorRight {
-    func Left(data: String)
-    func Right(data: String)
+    func sidefact(fact: String, side: String)
 }
 
 let rightfunfacts = ["Right-handers are likely to eat more"," Right-handers are likely to be more sporty","Right-handers give to charity a lot","Right-handers  like to go on vacations","Na person Right-handers  be, dem no kill person"]
@@ -35,12 +34,12 @@ class SecondViewController: UIViewController {
     
     @IBAction func RightHandButton(_ sender: Any) {
         
-        delegate?.Right(data: randomright)
+        delegate?.sidefact(fact: randomright, side: "Right")
         dismiss(animated: true, completion: nil)
     }
     
     @IBAction func LeftHandButton(_ sender: Any) {
-        delegate?.Left(data: randomleft)
+        delegate?.sidefact(fact: randomleft, side: "Left")
         dismiss(animated: true, completion: nil)
     }
     

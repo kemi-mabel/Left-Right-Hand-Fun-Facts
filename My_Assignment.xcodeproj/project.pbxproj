@@ -16,7 +16,6 @@
 		CE278A7F2537AB350016CD09 /* My_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A7E2537AB350016CD09 /* My_AssignmentTests.swift */; };
 		CE278A8A2537AB360016CD09 /* My_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A892537AB360016CD09 /* My_AssignmentUITests.swift */; };
 		CE278AA92537B55C0016CD09 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278AA82537B55C0016CD09 /* SecondViewController.swift */; };
-		CE4B828C2537BFC900DA339C /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B828B2537BFC900DA339C /* Types.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		CE278A892537AB360016CD09 /* My_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_AssignmentUITests.swift; sourceTree = "<group>"; };
 		CE278A8B2537AB360016CD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE278AA82537B55C0016CD09 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		CE4B828B2537BFC900DA339C /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 				CE278A722537AB350016CD09 /* LaunchScreen.storyboard */,
 				CE278A6B2537AB310016CD09 /* FirstViewController.swift */,
 				CE278AA82537B55C0016CD09 /* SecondViewController.swift */,
-				CE4B828B2537BFC900DA339C /* Types.swift */,
 				CE278A752537AB350016CD09 /* Info.plist */,
 			);
 			path = My_Assignment;
@@ -267,7 +264,6 @@
 				CE278AA92537B55C0016CD09 /* SecondViewController.swift in Sources */,
 				CE278A6C2537AB310016CD09 /* FirstViewController.swift in Sources */,
 				CE278A682537AB310016CD09 /* AppDelegate.swift in Sources */,
-				CE4B828C2537BFC900DA339C /* Types.swift in Sources */,
 				CE278A6A2537AB310016CD09 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
